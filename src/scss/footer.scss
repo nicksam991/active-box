@@ -1,0 +1,77 @@
+footer {
+    background-color: #2C3154;
+    padding: 24px 0px 24px;
+}
+
+
+
+.footer-copyright {
+    display: block;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    color: #808080;
+}
+.footer-made {
+    display: block;
+    text-align: center;
+    display: block;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    color: #808080;
+}
+.footer-autor {
+    color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+
+    footer {
+        
+        padding: 14px 0px 14px;
+    }
+
+    .footer-copyright {
+        
+        font-size: 14px;
+        line-height: 16px;
+        
+    }
+    .footer-made {
+        
+        font-size: 14px;
+        line-height: 16px;
+        
+    }
+
+
+
+}
+
+@media (max-width: 790px) {
+    footer {
+        
+        padding: 29px 20px;
+    }
+
+    .footer-copyright {
+        
+        font-size: 14px;
+        line-height: 16px;
+        
+    }
+    .footer-made {
+        
+        font-size: 14px;
+        line-height: 16px;
+        
+    }
+
+}

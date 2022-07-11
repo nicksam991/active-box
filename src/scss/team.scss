@@ -1,0 +1,271 @@
+.team {
+    margin: 114px 0px;
+}
+
+.personal-information {
+    margin: 0px -15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+    
+}
+.personal-card {
+    width: 270px;
+
+    
+}
+
+
+.personal-foto {
+    width: 270px; 
+    height: 270px;
+    margin-bottom: 30px;
+}
+.personal-discription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.personal-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: $_24px;
+    line-height: 28px;
+    margin-bottom: 5.2px;
+}
+.personal-job {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    color: #FF4343;
+    margin-bottom: 18px;
+}
+.personal-discription-biography {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    margin-bottom: 38px;
+}
+.personal-social {
+    display: flex;
+    justify-content: center;
+    
+}
+.social-icon {
+    margin-right: 6px;
+    width: 39px;
+    height: 39px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+    
+}
+
+.social-icon:last-child {
+    margin-right: 0px;
+    
+}
+
+
+.fa-brands {
+   color: grey;
+   
+}
+
+.fa-facebook-f {
+    &:hover {
+        color: rgb(47, 79, 221);
+       
+    }
+
+    &:active {
+        color: blue;
+        
+    }
+
+}
+.fa-twitter {
+    &:hover {
+        color: skyblue;
+    }
+    &:active {
+        color: rgb(11, 124, 177);
+    }
+
+}
+.fa-linkedin {
+    &:hover {
+        color: rgb(3, 57, 138);
+    }
+    &:active {
+        color: rgb(13, 10, 158);
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .personal-card {
+        margin-bottom: 50px;
+
+    }
+
+
+    .personal-card:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .personal-card:nth-child(4) {
+        margin-bottom: 0px;
+    }
+    
+    .personal-card:nth-child(1) {
+         
+        
+
+        .personal-foto {
+            width: 270px;
+        }
+
+        .personal-discription {
+            width: 270px;
+        }
+        
+    }
+
+    .personal-discription-biography {
+        
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .team {
+    margin: 78px 0px;
+    }
+
+    .personal-information {
+        margin: 0px ;
+    }
+
+    .personal-card {
+        width: 227px;
+    
+        
+    }
+    .personal-card:nth-child(1) {
+        flex-basis: auto; 
+
+        .personal-foto {
+            width: auto;
+        }
+
+        .personal-discription {
+            width: auto;
+        }
+    }
+
+    .personal-foto {
+        width: 227px; 
+        height: 227px;
+        margin-bottom: 25px;
+       
+    }
+
+    .personal-foto img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .personal-name {
+        
+        font-size: 21px;
+        
+    }
+    .personal-job {
+        
+        font-size: 16px;
+        
+    }
+
+    .personal-discription-biography {
+        
+        font-size: 14px;
+        
+        margin-bottom: 39px;
+                
+    }
+    .personal-social {
+        display: flex;
+        
+    }
+    .social-icon {
+        margin-right: 4px;
+        width: 32px;
+        height: 32px;
+        border: 1px solid grey;
+        
+        
+    }
+
+    @media (max-width: 790px) {
+
+        .personal-information {
+            flex-direction: column;
+                       
+        
+            
+        }
+
+        .personal-card {
+            width: 100%;
+        }
+
+        .personal-card:nth-child(1) {
+            .personal-foto {
+                width: 280px; 
+                height: 227px;
+              
+            }
+        }
+
+        .personal-foto {
+            width: 280px; 
+            height: 227px;
+            margin-bottom: 30px;
+            margin: 0px auto 30px;
+        }
+
+        .personal-job {
+            
+            margin-bottom: 38px;
+        }
+
+        
+        .personal-card:nth-child(3) {
+           
+            margin-bottom: 49px;
+              
+           
+        }
+       
+        
+            
+    
+    }
+
+}
+
